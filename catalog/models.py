@@ -2,6 +2,8 @@ from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
 from django.urls import reverse
 
+from utils import upload_function
+
 
 class Category(MPTTModel):
     """Сategories to which the goods belong"""
